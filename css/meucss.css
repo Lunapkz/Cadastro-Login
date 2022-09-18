@@ -17,10 +17,14 @@ h5 {
     text-align: justify;
 }
 
+body {
+    font-family: serif;
+}
+
 .res {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.form-group {
+.form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

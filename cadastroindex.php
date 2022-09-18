@@ -5,6 +5,7 @@
     <meta charset="utf-8" lang="pt-br">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Cadastro de Clientes</title>
+    <link href="css/meucss.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,7 +25,7 @@ mysqli_query($connection,$sql) or die ("Erro ao acessar o Banco de Dados");
 
     echo "<br>Cliente cadastrado com sucesso!<br><br>";
     echo "<strong>Nome do cliente:</strong> $nome<br>";
-    echo "<strong>Senha do cliente:</strong> $senha<br>";
+    echo "<strong>Senha do cliente: </strong> $senha<br>";
 
 ?>
 
