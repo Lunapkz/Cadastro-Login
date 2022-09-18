@@ -17,12 +17,12 @@ $senha = $_GET["password"];
 //processamento
 include_once("conexaobd.php");
 
-$sql = "INSERT INTO CLINTE (NOME,SENHA) VALUES ('$nome','$senha');";
+$sql = "INSERT INTO CLIENTE (NOME,SENHA) VALUES ('$nome','$senha');";
 mysqli_query($connection,$sql) or die ("Erro ao acessar o Banco de Dados");
 
     //saida
 
-    echo "Cliente cadastrado com sucesso!<br><br>";
+    echo "<br>Cliente cadastrado com sucesso!<br><br>";
     echo "<strong>Nome do cliente:</strong> $nome<br>";
     echo "<strong>Senha do cliente:</strong> $senha<br>";
 
