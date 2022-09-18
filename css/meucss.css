@@ -5,6 +5,10 @@ body {
     margin: auto;
 }
 
+label {
+    margin-top: 9px;
+}
+
 h6 {
     margin-top: 4px;
 }
