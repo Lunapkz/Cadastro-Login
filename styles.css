@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+* {
+    margin: 0%;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #085b69, hsl(194, 100%, 82%), #085b69);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container {
+    border-radius: 8px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(13, 111, 136);
+    max-width: 400px;
+    min-height: 400px;
+    padding: 4rem;
+    box-shadow: 5px 5px 5px, rgb(0, 14, 17)
+}
+
+main h1 {
+    font-weight: 20000;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+
+/* .input-field {
+    position: relative;
+}
+
+.input-field {
+    font-size: 0.9rem;
+    color: rgb(226, 43, 67);
+}
+
+.input-field input {
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+} */

@@ -1,0 +1,22 @@
+body {
+    background-color: aliceblue;
+    width: 700px;
+    padding: 40px;
+    margin: auto;
+}
+
+h6 {
+    margin-top: 4px;
+}
+
+h5 {
+    text-align: justify;
+}
+
+.res {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-group {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
