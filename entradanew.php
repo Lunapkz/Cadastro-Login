@@ -13,12 +13,13 @@
 //recuperação de dados 
 
 $nome = $_GET["username"];
+$email = $_GET["email"];
 $senha = $_GET["password"];
 
 //processamento
 include_once("conexaobd.php");
 
-$sql = "INSERT INTO CLIENTE (NOME,SENHA) VALUES ('$nome','$senha');";
+$sql = "INSERT INTO USUARIO(NOME,EMAIL,SENHA) VALUES ('$nome','$email','$senha');";
 mysqli_query($connection,$sql) or die ("Erro ao acessar o Banco de Dados");
 
     //saida
