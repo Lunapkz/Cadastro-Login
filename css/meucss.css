@@ -28,3 +28,8 @@ body {
 .form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+div{
+    display:inline;
+    margin-top: -20px;
+ }
+ 
